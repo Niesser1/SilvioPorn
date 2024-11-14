@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página de Videos</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #181818;
+            color: white;
+            overflow-x: hidden;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #ff0000;
+            color: white;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .search-bar {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+        .search-bar input {
+            width: 50%;
+            padding: 5px;
+            font-size: 16px;
+        }
+        .menu-btn {
+            font-size: 24px;
+            cursor: pointer;
+        }
+        .sidebar {
+            height: 100vh;
+            width: 240px;
+            position: fixed;
+            top: 0;
+            left: -240px;
+            background-color: #202020;
+            padding-top: 60px; /* Adjusted for header height */
+            overflow-x: hidden;
+            overflow-y: auto;
+            transition: 0.3s;
+            z-index: 999;
+        }
+        .sidebar a {
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #b3b3b3;
+            display: block;
+            transition: 0.3s;
+        }
+        .sidebar a:hover {
+            background-color: #383838;
+            color: white;
+        }
+        .sidebar .active {
+            background-color: #383838;
+            color: white;
+        }
+        .sidebar .section-title {
+            padding: 15px 30px;
+            text-transform: uppercase;
+            font-size: 12px;
+            color: #b3b3b3;
+            margin-top: 20px;
+        }
+        .container {
+            display: flex;
+            margin-top: 60px; /* Adjusted for header height */
+            transition: margin-left 0.3s;
+        }
+        .main-content {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-left: 0;
+        }
+        .video-card {
+            width: 300px;
+            margin: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background-color: #282828;
+        }
+        .video-card video {
+            width: 100%;
+            height: auto;
+        }
+        .video-card h3 {
+            margin: 10px;
+            color: white;
+        }
+        .video-card p {
+            margin: 0 10px 10px;
+            color: #bbb;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <span class="menu-btn" onclick="toggleSidebar()">☰</span>
+        <h1>SilvioPorn</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar...">
+        </div>
+    </header>
+    <div class="sidebar" id="sidebar">
+        <a href="index.html" class="active">Principal</a>
+        <a href="#">El entrenador Silvio</a>
+        <a href="index3.html">Como le gustan a Hansel</a>
+        <a href="#">Categoría 3</a>
+        <div class="section-title">Tú</div>
+        <a href="#">Tu canal</a>
+        <a href="#">Historial</a>
+        <a href="#">Playlists</a>
+        <a href="#">Tus videos</a>
+        <a href="#">Ver más tarde</a>
+        <a href="#">Videos que me gustan</a>
+        <a href="#">Tus clips</a>
+    </div>
+    <div class="container" id="main-container">
+        <div class="main-content">
+            <div class="video-card">
+                <video controls>
+                    <source src="Silvio/El entrenador Silvio se folla a sus alumnas.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+                
+                <p>El entrenador Silvio se folla a sus alumnas</p>
+            </div>
+            <div class="video-card">
+                <video controls>
+                    <source src="Silvio/Entrenador personal (Silvio) se folla a su proyecto.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+               
+                <p>Entrenador personal (Silvio) se folla a su proyecto</p>
+            </div>
+            <div class="video-card">
+                <video controls>
+                    <source src="Silvio/Gran mamada al entrenador Silvio Lopez.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+                
+                <p>Gran mamada al entrenador Silvio Lopez</p>
+            </div>
+            <div class="video-card">
+                <video controls>
+                    <source src="Silvio/Nena de gran culo es follada por Silvio Flores.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+              
+                <p>Nena de gran culo es follada por Silvio Flores</p>
+            </div>
+            <div class="video-card">
+                <video controls>
+                    <source src="Silvio/Silvio en el gym.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+                
+                <p>Silvio en el gym/p>
+            </div>
+            <div class="video-card">
+                <video controls>
+                    <source src="Silvio/Silvio Flores follando en el gimnasio.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+                
+                <p>Silvio Flores follando en el gimnasio</p>
+            </div>
+            <div class="video-card">
+                <video controls>
+                    <source src="Silvio/Silvio no se agunta y folla en el estacionamiento del Gym.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+                
+                <p>Silvio no se agunta y folla en el estacionamiento del Gym</p>
+            </div>
+            <!-- Añade más tarjetas de video aquí -->
+        </div>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById("sidebar");
+            var mainContainer = document.getElementById("main-container");
+            if (sidebar.style.left === "0px") {
+                sidebar.style.left = "-240px";
+                mainContainer.style.marginLeft = "0";
+            } else {
+                sidebar.style.left = "0px";
+                mainContainer.style.marginLeft = "240px";
+            }
+        }
+    </script>
+</body>
+</html>
